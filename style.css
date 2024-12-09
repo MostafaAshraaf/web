@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    background-color: #1f1f1f;
+}
+main{
+    width: 60%;
+    margin: auto ;
+    margin-top: 50px;
+    display: flex;
+    
+
+}
+.SideBar{
+    background-color: rgb(35, 94, 220);
+    width: 40%;
+    padding: 30px;
+    color: white;
+}
+.SideBar .myimg{
+    width: 80%;
+    margin: auto;
+}
+.SideBar .myimg img{
+    width: 100%;
+    border-radius: 300%;
+}
+
+p {
+    line-height: 20px;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+li{
+    padding: 10px 0;
+}
+ol li{
+    list-style: decimal;
+}
+
+.content{
+    background-color: white;
+    padding: 30px;
+}
+.content .header{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.content .header h1{
+    font-size: 50px;
+}
+.content .header h2{
+    font-size: 30px;
+    color: gray;
+}
+
+.Projects p {
+    padding:10px 0 0 20px  ;
+}
+
+
+footer{
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+}
